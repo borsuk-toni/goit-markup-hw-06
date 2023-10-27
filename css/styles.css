@@ -309,13 +309,12 @@ a {
 .features-text {
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 500;
     letter-spacing: 0.02em;
 }
 
 .team {
     background-color: #F4F4FD;
-    display: flex;
-    flex-direction: column;
     padding: 96px 0;
     text-align: center;
 }
@@ -490,6 +489,7 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: block;
     text-align: center;
 }
 
@@ -510,12 +510,6 @@ a {
     letter-spacing: 0.02em;
     max-width: 264px;
     margin-top: 16px;
-}
-
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .footer-logo-soc {
@@ -980,7 +974,7 @@ a {
    }
    
    .footer-logo {
-        align-self: flex-start;
+        text-align: start;
    }
 
     .footer-soc-title {
@@ -1056,6 +1050,12 @@ a {
         gap: 40px;
     }
 
+    .header-address-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.03em;
+    }
+
     .header-address-link:hover {
         color: #404BBF;
     }
@@ -1109,6 +1109,11 @@ a {
         height: 112px;
         margin-bottom: 8px;
     }
+
+    .features-text {
+        font-weight: 400;
+    }
+
     .features-item {
         width: calc((100% - 72px) / 4);
     }
